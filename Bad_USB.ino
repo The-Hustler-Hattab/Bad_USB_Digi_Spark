@@ -33,7 +33,6 @@ void openCmd() {
 }
 
 void typeCommand(String str){
-    // Type "cmd"
   DigiKeyboard.print(str);
   DigiKeyboard.delay(100); // Short delay
 
